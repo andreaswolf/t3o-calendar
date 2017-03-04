@@ -47,6 +47,9 @@
             <trans-unit id="tx_calendar_event.hashtags">
                 <source>Hashtags (separated by comma)</source>
             </trans-unit>
+            <trans-unit id="tx_calendar_event.cruser_fe">
+                <source>Creating Frontend User</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

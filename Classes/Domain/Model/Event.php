@@ -14,6 +14,7 @@
 
 namespace T3o\Calendar\Domain\Model;
 
+use TYPO3\CMS\Extbase\Domain\Model\FrontendUser;
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class Event extends AbstractEntity
@@ -51,6 +52,9 @@ class Event extends AbstractEntity
 
     /** @var string */
     protected $hashtags;
+
+    /** @var \TYPO3\CMS\Extbase\Domain\Model\FrontendUser */
+    protected $frontendUser;
 
     /**
      * @return string
@@ -138,6 +142,14 @@ class Event extends AbstractEntity
     public function getHashtags(): string
     {
         return $this->hashtags;
+    }
+
+    /**
+     * @return FrontendUser
+     */
+    public function getFrontendUser(): FrontendUser
+    {
+        return $this->frontendUser;
     }
 
 }

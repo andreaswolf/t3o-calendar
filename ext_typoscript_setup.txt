@@ -1,0 +1,13 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            T3o\Calendar\Domain\Model\Event {
+                mapping {
+                    columns {
+                        cruser_fe.mapOnProperty = frontendUser
+                    }
+                }
+            }
+        }
+    }
+}

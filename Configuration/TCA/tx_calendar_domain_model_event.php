@@ -19,7 +19,7 @@ return [
     ],
     'types' => [
         '1' => ['showitem' => 'title, description, ' .
-            '--palette--;' . $labelPrefix . '.palette.date;dates, categories, hashtags,' .
+            '--palette--;' . $labelPrefix . '.palette.date;dates, categories, hashtags, cruser_fe,' .
             '--div--;' . $labelPrefix . '.palette.location, ;;location, location_address,' .
             '']
     ],
@@ -151,6 +151,17 @@ return [
                 'type' => 'input',
                 'size' => 30,
                 'eval' => 'trim'
+            ]
+        ],
+        'cruser_fe' => [
+            'label' => $labelPrefix . '.cruser_fe',
+            'config' => [
+                'type' => 'select',
+                'items' => [
+                    ['', 0],
+                ],
+                'foreign_table' => 'fe_users',
+                'readonly' => true,
             ]
         ]
     ],
