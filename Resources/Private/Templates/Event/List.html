@@ -1,0 +1,5 @@
+<ul>
+    <f:for each="{events}" as="event">
+        <li><f:link.action action="show" arguments="{event: event}">{event.title}</f:link.action> – <f:format.date date="{event.start}" format="d.m.Y" /></li>
+    </f:for>
+</ul>
