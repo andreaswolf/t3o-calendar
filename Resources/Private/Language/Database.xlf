@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="tx_calendar_event">
+                <source>Event</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.palette.date">
+                <source>Date</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.start">
+                <source>Start</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.end">
+                <source>End</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.timezone">
+                <source>Time zone</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.categories">
+                <source>Categories</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.palette.location">
+                <source>Location</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.location_name">
+                <source>Location Name</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.location_address">
+                <source>Address</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.location_city">
+                <source>City</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.location_zip">
+                <source>ZIP</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.location_country">
+                <source>Country</source>
+            </trans-unit>
+            <trans-unit id="tx_calendar_event.hashtags">
+                <source>Hashtags (separated by comma)</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
