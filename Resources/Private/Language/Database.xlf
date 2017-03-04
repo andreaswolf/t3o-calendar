@@ -8,6 +8,9 @@
             <trans-unit id="tx_calendar_event.title">
                 <source>Title</source>
             </trans-unit>
+            <trans-unit id="tx_calendar_event.description">
+                <source>Description</source>
+            </trans-unit>
             <trans-unit id="tx_calendar_event.palette.date">
                 <source>Date</source>
             </trans-unit>

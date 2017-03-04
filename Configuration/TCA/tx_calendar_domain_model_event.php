@@ -18,7 +18,7 @@ return [
             . 'Resources/Public/Icons/tx_calendar_event.gif'
     ],
     'types' => [
-        '1' => ['showitem' => 'title, ' .
+        '1' => ['showitem' => 'title, description, ' .
             '--palette--;' . $labelPrefix . '.palette.date;dates, categories, hashtags,' .
             '--div--;' . $labelPrefix . '.palette.location, ;;location, location_address,' .
             '']
@@ -33,6 +33,15 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 30,
+                'eval' => 'trim,required'
+            ]
+        ],
+        'description' => [
+            'label' => $labelPrefix . '.description',
+            'config' => [
+                'type' => 'text',
+                'cols' => '80',
+                'rows' => '10',
                 'eval' => 'trim,required'
             ]
         ],

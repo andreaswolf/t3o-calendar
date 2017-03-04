@@ -4,6 +4,7 @@ CREATE TABLE tx_calendar_domain_model_event (
 
 
   title            VARCHAR(220) DEFAULT ''         NOT NULL,
+  description      TEXT,
   start            DATETIME                        NOT NULL,
   end              DATETIME                        NOT NULL,
   timezone         VARCHAR(20)                              DEFAULT 'UTC',
