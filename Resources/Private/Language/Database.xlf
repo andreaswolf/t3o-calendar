@@ -50,6 +50,9 @@
             <trans-unit id="tx_calendar_event.cruser_fe">
                 <source>Creating Frontend User</source>
             </trans-unit>
+            <trans-unit id="fe_groups.tx_calendar_eventcategories">
+                <source>Allowed event categories</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -30,3 +30,7 @@ CREATE TABLE tx_calendar_domain_model_event (
   PRIMARY KEY (uid),
   KEY parent (pid)
 );
+
+CREATE TABLE fe_groups (
+  tx_calendar_eventcategories INT(11) NOT NULL,
+);
